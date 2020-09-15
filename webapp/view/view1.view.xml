@@ -1,0 +1,20 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="dell.controller.view1"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+			<Page title="Master Detail">
+			    <headerContent>
+			    <Button text="forward" icon="sap-icon://media-forward"/>
+			    </headerContent>
+				<content>
+				<SearchField search="onSearch" liveChange="onChange"/>
+				<List id="idList" items="{/fruits}" itemPress="itPress" mode="SingleSelectMaster">
+				<items>
+				<ObjectListItem intro="{name}" type="Navigation" icon="{photo}" number="{price}" numberUnit="{unit}" numberState="Success" title="{benefit}"/>				
+				</items>
+				</List>
+				</content>
+				<footer>
+				<Toolbar>
+				</Toolbar>
+				</footer>
+			</Page>
+</mvc:View>

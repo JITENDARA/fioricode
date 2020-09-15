@@ -1,0 +1,7 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core">
+<Popover title="Sorting">
+<Button text="text1"/>
+<Button text="text2"/>
+<Button text="text3"/>
+</Popover>
+</core:FragmentDefinition>
